@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+body{
+	font-family: 'Lato', 'Helevetica Neue', Helevetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+a:link, a:visited {
+   color: #0000AA;
+} 
+
+a:hover, input:focus {
+   color: #0000EE;
+} 
+
+a:link, a:visited, a:hover, input:focus {
+   	text-decoration: none;
+}
+
+h1, h2, h3{
+	font-family: Raleway, 'Helevetica Neue', Helevetica, sans-serif;
+	font-weight: 300;	
+}
+
+h2, h3 {
+	color: #505050;
+}
+
+h1 {	
+	font-size: 300%;
+}
+
+h2{
+	font-size: 150%;
+}
+
+h3{
+	font-size: 125%;
+}
+
+header p, h1, h2 {
+	margin: 0;
+}
+
+main {
+	background-image: url(../img/ricepaper_v3.png);
+	opacity: 0.9;
+}
+
+header {	
+	background-color:#FA5A0F;
+	color: #FFFFFF;
+	border-bottom: 5px solid #EA4A00;
+}
+
+header p{
+	font-size: 120%;
+	color: #EEEEEE;
+}
+
+.container-fluid{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.Menu {
+	background-color: rgba(207, 205, 140, 0.5);
+}
+
+.Menu dt {
+	font-weight: 400;
+}
+
+.Menu dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+footer {
+	text-align: right;
+	background-color: #FC892F;
+	border-top: 5px solid #EC791F;
+	font-size: 80%;
+}
+
+.General, .Menu, .About, footer, header  {
+	padding: 1em;
+}
+
+header p {
+	display: none;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li{
+	list-style: none;
+	display: inline;
+	margin-right: 1em;
+}
+
+nav a:link {
+	color: #55E;
+}
+
+nav a:hover, input:focus {
+	color: #00E;
+}
+
+@media screen and (min-width: 992px) {
+	body {
+		background-image: url(../img/background.jpg); 
+		background-repeat: no-repeat;
+ 		background-attachment: fixed;
+ 		font-size: 18px;
+	}
+
+	main, .container-fluid {
+		margin-left: 30%;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	header p{
+		display: inline;
+	}
+
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+}
