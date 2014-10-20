@@ -63,12 +63,11 @@ header p{
 .container-fluid{
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-left: 0;
-	padding-right: 0;
 }
 
 .Menu {
 	background-color: rgba(207, 205, 140, 0.5);
+
 }
 
 .Menu dt {
@@ -141,4 +140,16 @@ nav a:hover, input:focus {
 		right: 10px;
 	}
 
+	.container-fluid, .Menu {
+		padding-left: 0em;
+	}
+
+	.container-fluid {
+		padding-right: 0;  
+	}
+
+	.Menu {
+		margin-left: 0em;
+		margin-right: 0em;
+	}
 }
