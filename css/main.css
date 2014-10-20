@@ -97,8 +97,8 @@ header p {
 }
 
 nav ul{
-	padding: 0px;
-	margin: 0px;
+	padding: 0em;
+	margin: 0em;
 }
 
 nav li{
@@ -145,7 +145,7 @@ nav a:hover, input:focus {
 	}
 
 	.container-fluid {
-		padding-right: 0;  
+		padding-right: 0em;  
 	}
 
 	.Menu {
